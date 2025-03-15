@@ -1,3 +1,2 @@
-hello
-this is phonepay
-
+String name = "John";
+System.out.println(name);
