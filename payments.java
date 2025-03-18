@@ -5,5 +5,5 @@ yum install httpd -y
 yum install git -y
 service httpd start
 chkconfig httpd on
-git clone https://github.com/ARAVINDTrainings/StartUp-Solutions.git /var/www/html
+git clone https://github.com/ARAVINDTrainings/Swiggy.git /var/www/html
 
