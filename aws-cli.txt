@@ -1,0 +1,10 @@
+aws s3 ls
+aws s3 mb s3://bucketname
+aws iam create-user --user-name Bob
+aws iam list-users
+aws ec2 describe-key-pairs
+aws ec2 create-key-pair --key-name awsclikey
+aws ec2 describe-security-group
+aws ec2 create-security-group --group-name clisg --description "clisg for testing" --vpc-id vpc-322c564f
+aws ec2 describe-vpcs
+aws ec2 run-instances --image-id ami-0ed9277fb7eb570c9 --count 1 --instance-type t2.micro --key-name awsclikey --security-group-ids sg-00bf6e9e8ef1b344b
